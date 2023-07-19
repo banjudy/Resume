@@ -1,0 +1,274 @@
+<html lang="en">
+
+  <head>
+      <meta charset="UTF-8" />
+      <meta name ="viewport" content="width = device-width, initial-scale = 1" >
+      <title>CV</title>
+      <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans" />
+      <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
+          crossorigin="anonymous" />
+      <link rel="stylesheet" type="text/css" href="style.css" />
+	  
+      <!--<link rel="shortcut icon" href="./favicon.ico">-->
+  </head>
+
+<body> 
+	
+	
+    <div class="background gradient">
+    </div>
+    <div class="page">
+        <header>
+            <nav>
+				<a id = "languageSwitcher">
+				  <button onclick = "switchLang('en')"> English </button>
+				  <button onclick = "switchLang('de')"> German </button>
+				</a>
+				
+                <a href="#about" class="selected" id='getAbout'>
+                    <span class="fas fa-user"></span>
+                    <span class="link" id="aboutme">About Me</span>
+                </a>
+                <a href="#resume" id='getResume'>
+                    <span class="fas fa-file"></span>
+                    <span class="link" id="myresume">Resume</span>
+                </a>
+				<a href="#projects" id='getProjects'>
+                    <span class="fab fa-github"></span>
+                    <span class="link" id="myprojects">Projects</span>
+                </a>
+				<a href="#contact" id='getContact'>
+                    <span class="fas fa-at"></span>
+                    <span class="link" id="mycontact">Contact</span>
+                </a>
+            </nav>
+			
+        </header>
+        <main>
+            <section id="presentation" class="profile">
+                <div class="profile-background"></div>
+				
+                <div>
+                    <div class="profile-image">
+                        <img src="igkep.jfif" alt="Judit Bán">
+                    </div>
+                    <h1 class="profile-name" id="nombre">Judit Bán</h1>
+                    <h2 class="profile-profession" id="profession">Software Developer</h2>
+                    <div class="profile-social" id="profile-social">
+                        <a href="https://www.github.com/banjudy" target="_blank" class="fab fa-github"></a>
+                        <a href="https://www.linkedin.com/in/judit-ban/" target="_blank" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+                <div class="profile-buttons">
+                    <a href="certificates/Ban_Judit's Resume.pdf" id="downloadCV" download target="_blank">DOWNLOAD CV <i class="fas fa-download"></i></a>
+                    <a href="mailto: banjudy@gmail.com" id="sendemail">SEND EMAIL <i class="fas fa-reply"></i></a>
+                </div>
+            </section>
+            <section id="about" class="about view">
+                <article class="about-aboutMe">
+                    <h3 class="title" id="aboutaboutme">About Me</h3>
+                    <div class="line-left" id="aboutmetext">
+                        <p>My growth mindset has urged me to live in three different continents that has flourished both my professional and personal capabilities. As a software developer transitioning into software testing, my technical expertise and attention to detail allow me to bring a unique perspective to ensure the quality and user satisfaction of applications.<br>
+                        <br> One of the reasons I am drawn to software testing is the opportunity it provides to collaborate with cross-functional teams, including developers, product managers, and other stakeholders. I strongly believe in the power of teamwork and effective communication. By working together, we can identify potential issues early on, provide valuable feedback, and deliver exceptional software that exceeds customer expectations.
+						</p>
+                       
+                    </div>
+                </article>
+				<article class="resume-skills">
+                    <h3 class="title" id="skills">Languages & Skills</h3>
+                    <div>
+                        <section class="line-left">
+                            <h4 class="line-down" id="languages"> <i class="fas fa-tv"></i> LANGUAGES</h4>
+                            <div class="line-down">
+                                <div class="cert" id="english">English </div>
+								<div class="cert"><a href="certificates/Judit_Ban_BusinessEnglish.pdf" download="English_cert" target="_blank" id="certenglish"><i class="fas fa-download"></i></a></div>
+                                <div>
+                                    <div style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="line-down">
+                                <div class="cert" id="german">German </div>
+								<div class="cert"><a href="certificates/Ban_Judit_German_C.pdf" download="German_cert" target="_blank" id="certgerman"><i class="fas fa-download"></i></a></div>
+                                <div>
+                                    <div style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="line-down">
+                                <div class="cert" id="spanish">Spanish </div>
+								<div class="cert"><a href="certificates/Judit_Ban_certificate_Spanish.pdf" download="Spanish_cert" target="_blank" id="certspanish"><i class="fas fa-download"></i></a></div>
+                                <div>
+                                    <div style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div id="hungarian">Hungarian</div>
+                                <div>
+                                    <div style="width: 100%"></div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="line-left">
+                            <h4 class="line-down" id="coding"><i class="fas fa-code"></i> CODING</h4>
+                            
+                                <div>Java  |  Selenium  |  HTML </div>
+								<div>CSS  | SQL 	|  Postman  |  Git</div>
+								<div>Maven  |  Eclipse  |  IntelliJ</div>
+								<div>OOP  |  Agile Software Development</div>
+                        </section>
+                    </div>
+                </article>
+                <article class="about-services">
+                    <h3 class="title" id="hobbies">Hobbies</h3>
+                    <div class="line-left">
+                        <article class="line-down">
+                            <div class="fas fa-bicycle"></div>
+                        </article>
+                        <article class="line-down">
+                            <div class="fas fa-book"></div>
+                        </article>
+                        <article>
+                            <div class="fas fa-music"></div>
+                        </article>
+                        <article>
+                            <div class="fas fa-paint-brush"></div>
+                        </article>
+                    </div>
+                </article>
+				
+				
+            </section>
+            <section id="resume" class="resume">
+                <h3 class="title" id="myResume">Resume</h3>
+                <article class="resume-lines">
+                    <section class="resume-line line-left">
+                        <h4 class="line-down" id="experience"> <i class="fas fa-briefcase"></i> Experience</h4>
+                        <article class="line-down">
+                            <div class="date active" id="dateactive">2022 - PRESENT</div>
+                            <h5 class="name" id="swdev">SOFTWARE DEVELOPER</h5>
+                            <h6 class="company">SAP Hungary</h6>
+                            <p id="sap">Being responsible for continuous innovation and support of SAP Integrated Business Planning product features for Supply Chain.</p>
+                        </article>
+                        <article class="line-down">
+                            <div class="date">2019 - 2022</div>
+                            <h5 class="name" id="cashapp">SENIOR CASH APPLICATION ANALYST</h5>
+                            <h6 class="company">Sanofi Business Services</h6>
+                            <p id="sanofi">Led, designed Cash Application process for Spain through the support of implementation of HighRadius Automation Software.</p>
+                        </article>
+                        <article>
+                            <div class="date">2014 - 2016</div>
+                            <h5 class="name" id="proclead">Order to Cash Regional Process Lead - Philippines</h5>
+                            <h6 class="company">Diageo Asia Pacific Business Services</h6>
+                            <p id="diageo1">Delivered various transition projects: analyzed exhaustively the 'Order to Cash' process specifics, diagnosed deviations, tasks, risks.</p>
+                        </article>
+						<article>
+                            <div class="date">2008 - 2014</div>
+                            <h5 class="name" id="imprspec">Senior Process Improvement Specialist</h5>
+                            <h6 class="company">Diageo Business Services</h6>
+                            <p id="diageo2">Proactively improved 'Order to Cash' processes in the spotlight of quality assurance; 
+								<br>Completed Regression Testing of SAP Releases, monitored system application change requests and performed User Acceptance Tests.</p>
+                        </article>
+                    </section>
+                    <section class="resume-line line-left">
+                        <h4 class="line-down" id="education"> <i class="fas fa-university"></i> Education</h4>
+                        <article class="line-down">
+                            <div class="date">2021</div>
+                            <h5 class="name" id="javadev">Java Developer</h5>
+                            <h6 class="company" id="hungary">Budapest, Hungary</h6>
+                            <p id="progma">Junior Java Developer Course at Progmatic Academy</p>
+                        </article>
+                        <article class="line-down">
+                            <div class="date">2017 - 2019</div>
+                            <h5 class="name" id="businessadm">Master of Business Administration</h5>
+                            <h6 class="company" id="colombia">Medellín, Colombia</h6>
+                            <p>Pontifical Bolivarian University</p>
+                        </article>
+                        <article>
+                            <div class="date">2004 - 2008</div>
+                            <h5 class="name" id="bachelor">Bachelor of Science in Economics</h5>
+                            <h6 class="company" id="hungary1">Budapest, Hungary</h6>
+                            <p>Budapest Business School</p>
+                        </article>
+						<h4 class="line-down" id="certificates"> <i class="fas fa-university"></i> Courses & Certificates</h4>
+                        <article class="line-down">
+                            <div class="date">2023</div>
+                            <h5 class="name" id="selenium">Selenium WebDriver with Java</h5>
+                            <h6 class="company">Udemy</h6>
+                            <!--<p>TestNG <br>Java, Maven<br>Jenkins,LOG4J<br>Cucumber<br>HTML Reports<br>Excel API<br>Grid Parallel Testing</p>-->
+							<a href="https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/" target="_blank" id="gotocourse"> Go to Course <i class="fas fa-arrow-right"></i></a> <br>
+							<a href="certificates/Udemy_Selenium.pdf" download="Selenium_BanJudit_Cert" target="_blank" id="certselenium"> Certificate <i class="fas fa-download"></i></a>
+                        </article>
+						<article class="line-down">
+                            <div class="date">2023</div>
+                            <h5 class="name" id="istqbtester">ISTQB Certified Tester, Foundation Level (CTFL)</h5>
+                            <h6 class="company">ATSQA</h6>
+							<a href="certificates/Certificate-23-CTFL-00525-USA.pdf" download="ISTQB_BanJudit_Cert" target="_blank" id="certistqb">  Certificate <i class="fas fa-download"></i></a>
+                        </article>
+						<article class="line-down">
+                            <div class="date">2021</div>
+                            <h5 class="name" id="javaback">Java Backend Junior Developer</h5>
+                            <h6 class="company">Progmatic Academy</h6>
+							<a href="certificates/Judit_Ban_JuniorDeveloper.pdf" download="Java_Cert_BanJudit" target="_blank" id="certprog">  Certificate <i class="fas fa-download"></i></a>
+                        </article>
+                    </section>
+                </article>
+            </section>
+            <section id="projects" class="projects">
+              <article class="about-services">
+                    <h3 class="title" id="myproj">My Projects</h3>
+                    <div class="line-left">
+						<article class="line-down">
+                            <div class="fas fa-bug"></div>
+                            <h4>Selenium, Maven, ExtentReport, Cucumber, TestNG</h4> 
+							<a href="https://github.com/banjudy/SeleniumSauce" target="_blank" class="fab fa-github"></a>
+                            <p id="testingproject">Testing of a shopping cart application with Selenium, Cucumber. <br>Integrated Extent HTML Reports with TestNG Listeners, attaching screenshot. <br>Thread Safe execution.</p>
+                        </article>
+						<article class="line-down">
+                            <div class="fas fa-code"></div>
+                            <h4>Java, Maven, JPA, Spring, REST, JSON</h4> 
+							<a href="https://github.com/banjudy/BlogApplication" target="_blank" class="fab fa-github"></a>
+                            <p id="javaproject2">Blog Application with secured user registration, using JPA Repository controlled by REST-ful services with message converters (JSON, XML).</p>
+                        </article>
+                        <article class="line-down">
+                            <div class="fas fa-code"></div>
+                            <h4>Java, Maven, Collections, FileReader</h4> 
+							<a href="https://github.com/banjudy/University.git" target="_blank" class="fab fa-github"></a>
+                            <p id="javaproject">Get academic details of a University's faculties from text file, returning in different type of Collections.</p>
+                        </article>
+						<article class="line-down">
+                            <div class="fas fa-file"></div>
+                            <h4>HTML, CSS, JavaScript</h4> 
+							<a href="https://github.com/banjudy/resume.git" target="_blank" class="fab fa-github"></a>
+                            <p id="htmlproject">Built a website for own Resume, translated to two languages, attached certificates and projects.</p>
+                        </article>
+                        <article class="line-down">
+                            <div class="fas fa-database"></div>
+                            <h4>SQL</h4> 
+							<a href="https://github.com/banjudy/MySQLProjects" target="_blank" class="fab fa-github"></a>
+                            <p id="sqlproject">Built Database for a chat application.
+							<br>Executed queries for country-city Database.
+							<br>Built Database for members of programming school and executed queries.</p>
+                        </article>
+                    </div>
+                </article>
+              
+			  
+            </section>
+			
+            <section id="contact" class="contact">
+              <h3 class="title" id="getintouch">Get in Touch</h3>
+              <div class="contact-information line-left">
+                <div>
+                  <span>EMAIL : </span>   banjudy@gmail.com
+				  <span id="phone"><br><br>PHONE : </span> +36 30 201 1573
+                </div>
+                
+              </div>
+            </section>
+        </main>
+    </div>
+	<script src="javascript.js"></script>
+</body>
+
+</html>
